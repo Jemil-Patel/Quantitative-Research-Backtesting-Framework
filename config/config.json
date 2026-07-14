@@ -1,0 +1,26 @@
+{
+    "assets": [
+        "AAPL",
+        "MSFT"
+    ],
+    "start_date": "2022-01-01",
+    "end_date": "2023-12-31",
+    "strategy": "pairs_trading",
+    "risk": {
+        "stop_loss_pct": 0.05,
+        "take_profit_pct": 0.10,
+        "position_size_pct": 1.0
+    },
+    "grid_search": {
+        "pairs_trading": {
+            "window": [
+                30,
+                60
+            ],
+            "z_threshold": [
+                1.5,
+                2.0
+            ]
+        }
+    }
+}
