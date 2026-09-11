@@ -6,3 +6,11 @@ __pycache__/
 .env
 dist/
 node_modules/
+
+# Excluded specific project files
+PROJECT.md
+PROJECT.md.bak
+CLAUDE_CONTEXT.md
+
+# Excluded theory directory
+zTheory/
